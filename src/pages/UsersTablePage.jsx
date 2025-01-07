@@ -66,7 +66,7 @@ const UsersTablePage = () => {
       {/* Table */}
       <div className="overflow-x-auto bg-gray-800 text-white rounded-md shadow-md">
         {/* Table */}
-        <UserTable data={data} currentPage={currentPage} paginate={paginate} />
+        <UserTable data={data} />
 
         {/* Pagination */}
         <div className="flex justify-between items-center p-4">
