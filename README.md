@@ -19,7 +19,7 @@ This project consists of two main features:
 
 ### Custom Table
 
-- **API Integration**: Fetches data from [https://api.razzakfashion.com](https://api.razzakfashion.com).
+- **API Integration**: Fetches data from [https://api.razzakfashion.com](https://api.razzakfashion.com/).
 - **Parameters**: Supports `paginate` and `search` query parameters for data filtering.
 - **Dynamic Table**: Displays data dynamically based on the API response.
 - **Pagination**: Allows navigation through paginated data.
