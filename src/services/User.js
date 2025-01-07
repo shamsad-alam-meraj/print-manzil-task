@@ -2,8 +2,10 @@ import { baseUrl } from "../config/apiUrlConfig";
 import SuperFetch from "../config/superfetch";
 
 const User = {
-  getUserList: async () => {
-    const url = `${baseUrl.user}/`;
+  getUserList: async (paginate, query, page) => {
+    let url = `${baseUrl.user}?page=${page || 1}`;
+    if (paginate) url += `&paginate=${paginate}`;
+    if (query) url += `&search=${query}`;
     return await SuperFetch(url, "GET");
   },
   getUserListWithRowsPerPage: async (rowCount) => {
