@@ -43,7 +43,7 @@ const UsersTablePage = () => {
   };
 
   return (
-    <div className="p-4">
+    <div className="p-4 pt-24" id="users-table">
       {/* Search and Rows Per Page */}
       <div className="flex justify-between mb-4">
         {/* Search Bar */}
