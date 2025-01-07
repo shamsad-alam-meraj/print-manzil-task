@@ -51,3 +51,19 @@ cd print-manzil-task
    ```bash
    npm install
    ```
+
+4. Start the development server:
+
+```bash
+ npm run dev
+```
+
+5. Open your browser and navigate to:
+
+   ```bash
+   http://localhost:5173/
+   ```
+
+### Live Site
+
+Access the live demo here: [Live Site Link](https://print-manzil-assignment.netlify.app/)
