@@ -48,9 +48,9 @@ cd print-manzil-task
 
 3. Install dependencies:
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
 4. Start the development server:
 
@@ -60,9 +60,9 @@ cd print-manzil-task
 
 5. Open your browser and navigate to:
 
-   ```bash
-   http://localhost:5173/
-   ```
+```bash
+http://localhost:5173/
+```
 
 ### Live Site
 
